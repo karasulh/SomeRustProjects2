@@ -1,0 +1,18 @@
+[package]
+name = "d4_builder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+#[lib]
+#name = "v1_builder"
+#path = "src/lib.rs"
+
+#[lib]
+#name = "v2_defaultbuilder"
+#path = "src/card.rs"
+
+
+[dependencies]
+d4_builder_derive = { path = "../d4_builder_derive/"}

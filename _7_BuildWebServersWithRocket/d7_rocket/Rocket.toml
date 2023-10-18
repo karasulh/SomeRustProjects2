@@ -1,0 +1,2 @@
+[global.databases]
+doodlebase = {url="postgres://postgres:admin@localhost/doodle"}
